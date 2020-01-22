@@ -4,6 +4,7 @@ module Types
     field :name, String, null: false
     field :make, MakeType, null: false
     field :model, ModelType, null: false
+    field :year, String, null: false
     field :mpg, String, null: false
   end
 end
